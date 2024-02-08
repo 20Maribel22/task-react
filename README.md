@@ -10,13 +10,13 @@
 
 ## Клонировать репозиторий
 
-[git clone](https://github.com/20maribel22/task-react.git)
+git clone https://github.com/20maribel22/task-react.git
 
 ## Установить зависимости
 
 ### `npm install`
 
-## Установить зависимости
+## Запустить проект
 
 ### `npm start`
 
