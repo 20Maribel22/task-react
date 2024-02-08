@@ -1,0 +1,36 @@
+.user__container.open {
+  display: block;
+  height: 100%;
+}
+
+.user__container.close {
+  display: none;
+  height: 0;
+}
+
+.user__container {
+  max-width: 450px;
+  margin-top: 3%;
+  border-radius: 5px;
+  margin-left: 7%;
+  margin-bottom: 5%;
+  border: 1px solid grey;
+  position: relative;
+}
+
+.user__list {
+  list-style-type: none;
+  padding: 10px;
+}
+.user__close {
+  position: absolute;
+  right: -20px;
+  top: -40px;
+  font-size: 36px;
+  cursor: pointer;
+  color: gray;
+}
+
+.user__text {
+  font-size: 16px;
+}

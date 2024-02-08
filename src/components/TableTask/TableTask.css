@@ -1,0 +1,72 @@
+.btn__add_container {
+  display: flex;
+  justify-content: end;
+}
+
+.btn__add {
+  margin: 10px 0;
+}
+
+.table {
+  margin: 10px 0;
+}
+
+.input {
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+  width: 0;
+  height: 0;
+}
+
+.label {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.input:checked + label {
+  background-color: brown;
+}
+
+.text {
+  color: blue;
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  transition: 1s all;
+  position: relative;
+}
+
+.btn__a:hover {
+  transform: scale(1.5);
+}
+
+.btn__b:hover::after {
+  content: attr(data-description);
+  background-color: aqua;
+  position: absolute;
+  top: 30px;
+  left: 2px;
+}
+
+.file__label {
+  padding: 20px;
+  border: 2px black dashed;
+  cursor: pointer;
+}
+
+.file {
+  display: none;
+}
+
+.input__container {
+  padding-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+}

@@ -1,0 +1,8 @@
+.btn__data {
+    margin: 10px 5px;
+}
+
+.btns__data {
+ display: flex;
+ justify-content: center;
+}
